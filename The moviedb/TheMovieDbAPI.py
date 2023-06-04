@@ -1,4 +1,3 @@
-
 ## Exemplo simples de como manipular uma API
 
 import requests
@@ -8,12 +7,7 @@ cliente = str(input("Digite o nome do filme:  "))
 url = f"https://api.themoviedb.org/3/search/movie?query={cliente}&include_adult=true&language=pr-bt&page=1"
 
 # headers necessário para acessar a AIP do movie db
-headers = {
-  "accept":
-  "application/json",
-  "Authorization":
-  "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5OGJiNjFjNWZlYjIzNmQ4NzNiNTk2ZDhlYzhmZjIxZCIsInN1YiI6IjY0NzdkZWVjY2Y0YjhiMDEyMjc0MzFkNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.xVqhoRPmoJMFFYiYIdrgx2tA1u4XteW_IlLhTzqZJAs"
-}
+headers = {"accept": "application/json", "Authorization": "Bearer xxxx"}
 
 response = requests.get(url, headers=headers)
 
