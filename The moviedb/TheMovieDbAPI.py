@@ -12,7 +12,7 @@ headers = {
   "accept":
   "application/json",
   "Authorization":
-  "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5OGJiNjFjNWZlYjIzNmQ4NzNiNTk2ZDhlYzhmZjIxZCIsInN1YiI6IjY0NzdkZWVjY2Y0YjhiMDEyMjc0MzFkNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.xVqhoRPmoJMFFYiYIdrgx2tA1u4XteW_IlLhTzqZJAs"
+  "Bearer xxxx"
 }
 
 response = requests.get(url, headers=headers)
