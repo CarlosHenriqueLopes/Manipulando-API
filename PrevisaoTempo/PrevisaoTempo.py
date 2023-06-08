@@ -8,7 +8,7 @@ import requests, pprint # A lib pprint serve para vizualizar melhor a API
 from emoji import emojize
 from datetime import datetime
 
-api = "API"
+api = "APIKey"
 
 # Dicionários de emojis
 emojis = {
